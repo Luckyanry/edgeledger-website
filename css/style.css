@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
@@ -209,7 +213,8 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 130px;
+  height: 110px;
+  padding-top: 10px;
 }
 
 .footer a {
