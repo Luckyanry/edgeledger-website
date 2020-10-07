@@ -180,15 +180,15 @@ img {
 }
 
 /* Post */
-/* .post {
+.post {
   padding: 50px 30px;
 }
 
 .post h2 {
   font-size: 40px;
+  border-bottom: #ccc solid 1px;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: #ccc solid 1px;
 }
 
 .post .meta {
@@ -196,11 +196,11 @@ img {
 }
 
 .post img {
-  width: 300px;
-  border-radius: 50%;
   display: block;
+  max-width: 600px;
+  border-radius: 50%;
   margin: 0 auto 30px;
-} */
+}
 
 /* Footer */
 .footer {
@@ -220,7 +220,7 @@ img {
   color: #28a745;
 }
 
-.footer .social > * {
+.footer .social > *:not(:last-child) {
   margin-right: 30px;
 }
 
