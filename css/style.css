@@ -40,6 +40,25 @@ img {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -58,6 +77,11 @@ img {
 
 .navbar.top {
   background: transparent;
+}
+
+.navbar.success {
+  position: relative;
+  opacity: 1;
 }
 
 .navbar a {
