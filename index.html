@@ -196,7 +196,7 @@
         <div class="column">
           <div class="column-2 bg-light">
             <h2>Request Callback</h2>
-            <form name="contact" method="POST" data-netlify="true" class="callback-form">
+            <form name="contact" method="POST" data-netlify="true" class="callback-form" data-netlify-recaptcha="true">
               <div class="form-control">
                 <label for="name"></label>
                 <input type="text" name="name" id="name" placeholder="Enter name">
@@ -208,6 +208,9 @@
               <div class="form-control">
                 <label for="phone"></label>
                 <input type="text" name="phone" id="phone" placeholder="Enter phone">
+              </div>
+              <div class="my-2">
+                <div data-netlify-recaptcha="true"></div>
               </div>
               <input type="submit" value="Submit" id="submit" class="btn">
             </form>
